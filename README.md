@@ -45,31 +45,41 @@ print(response.json()) # Print JSON data from the requested URL
 
 ```pip install requests
 ```
-
+- Import Request 
+```
 import requests
-
-login = "63f5edb8fecdeb76b337b802"
-password = "44bd9e69742f6240ce53f643043261db"
+```
+- Define your auntentication variables from your API
+```
+login = "yourapiusername"
+password = "yourapipassword"
+```
+-  assign your login and password a variable.
+```
 authentication = (login, password)
-response = requests.get("https://api.sigfox.com/v2/devices/79C030/messages",auth=authentication) 
+```
+- From the sample we are using our API format is: https://api.sigfox.com/v2/devices/{id}/messages, rreplace id with your device ID, should be in Hex.
+- Below is the url format and how you pass the authentication details.
+I am using auth module to pass my authentication details.
+```
+response = requests.get("https://api.sigfox.com/v2/devices/id/messages",auth=authentication) 
 print(response.json())
+```
+##### Sample returned data with my device ID and API defined 
+
+<img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">
 
 
 
-Confirm the URL parttern. 
 
-
-
-
-
-### Coverage Prediction API Python Script
+#### Coverage Prediction API Python Script
 This API helps in getting Global Coverage API (single point) to get coverage levels for any location. The API description shows that two mandatory parameters must be provided, and two being optional, lat, lng are mandatory and radius optional.
 
 This helps predict coverage of any location. 
 "
 ```
 import requests
-parameters = {"lat": 43.52, "lng": 1.55, "radius": 200}
+parameters = {"lat": Yourlatitudein 2dplc, "lng": yourlongi, "radius": radius}
 login = "password"
 password = "user password"
 authentication = (login, password)

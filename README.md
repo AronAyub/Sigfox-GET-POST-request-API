@@ -86,4 +86,3 @@ response = requests.get("https://api.sigfox.com/v2/coverages/global/predictions"
 print(response.iter_content())
 print(response.json())
 ```
-# The variable response contains the response from the server

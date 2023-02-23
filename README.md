@@ -54,7 +54,7 @@ import requests
 login = "yourapiusername"
 password = "yourapipassword"
 ```
--  assign your login and password a variable.
+-  Assign your login and password a variable.
 ```
 authentication = (login, password)
 ```
@@ -69,6 +69,7 @@ print(response.json())
 
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">
 
+### JAVASCRIPT CODE
 
 
 

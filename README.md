@@ -87,3 +87,4 @@ response = requests.get("https://api.sigfox.com/v2/coverages/global/predictions"
 print(response.iter_content())
 print(response.json())
 ```
+**Same *auth parsing* should apply for other HTTPs Request, unless specified otherwise in the documentations**

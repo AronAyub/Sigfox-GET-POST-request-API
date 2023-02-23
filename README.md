@@ -42,8 +42,8 @@ print(response.json()) # Print JSON data from the requested URL
 
 ##### Python Scripts to obtain JSON Data
 - Install and Import Requests 
-
-```pip install requests
+```
+pip install requests
 ```
 - Import Request 
 ```

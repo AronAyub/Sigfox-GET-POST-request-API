@@ -15,15 +15,15 @@ The REST principle - usage of POST, GET, DELETE, PUT HTTP request used are widel
 
 ### Highlight:
 
-• No pooling message and device sync status through API
-• Reasonable API calls according to fleet
-• Retrieve message and device status by Callback
-• Reasonable callbacks per Device type
+- No pooling message and device sync status through API
+- Reasonable API calls according to fleet
+- Retrieve message and device status by Callback
+- Reasonable callbacks per Device type
 
 ### HTTPS GET REQUEST PYTHON SCRIPT 
-- This API is very much useful for data consumption.
+This API is very much useful for data consumption.
 #### Consuming open Source data
-- Start by consuming unauthenticated APIs. In python, a few lines of code are used to do this:
+Start by consuming unauthenticated APIs. In python, a few lines of code are used to do this:
 
 ```
 # Doing request 

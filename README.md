@@ -1,5 +1,6 @@
 # GET APIs In Sigfox Backend
 
+
 ## Introduction 
 APIs access in Sigfox Backend is restricted to aunthenticated API user, the first step to access API is to generate API credentials. Generating API can be done by your SO in the Sigfox Backend. API creditials are name, applicable time zone and, the most important part, the accessible roles for this new API. Accessible API methods and output response will be determined by the roles which are set for API credential. E,g Read only will allow you to access reading of the data only.
 

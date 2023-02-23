@@ -25,7 +25,6 @@ The REST principle - usage of POST, GET, DELETE, PUT HTTP request used are widel
 
 
 
-
 ### Coverage Prediction API Python Script
 This API helps in getting Global Coverage API (single point) to get coverage levels for any location. The API description shows that two mandatory parameters must be provided, and two being optional, lat, lng are mandatory and radius optional.
 

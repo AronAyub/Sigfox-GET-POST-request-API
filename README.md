@@ -19,3 +19,26 @@ The REST principle - usage of POST, GET, DELETE, PUT HTTP request used are widel
 • Retrieve message and device status by Callback
 • Reasonable callbacks per Device type
 
+### HTTPS GET REQUEST PYTHON SCRIPT 
+- This API is very much useful for data consumption.
+
+
+
+
+
+### Coverage Prediction API Python Script
+This API helps in getting Global Coverage API (single point) to get coverage levels for any location. The API description shows that two mandatory parameters must be provided, and two being optional, lat, lng are mandatory and radius optional.
+
+This helps predict coverage of any location. 
+"
+```
+import requests
+parameters = {"lat": 43.52, "lng": 1.55, "radius": 200}
+login = "password"
+password = "user password"
+authentication = (login, password)
+response = requests.get("https://api.sigfox.com/v2/coverages/global/predictions", auth=authentication, params=parameters)
+print(response.iter_content())
+print(response.json())
+```
+# The variable response contains the response from the server

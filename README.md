@@ -37,7 +37,7 @@ print(response.json()) # Print JSON data from the requested URL
 
 ```
 ## GET REQUEST Using SigfoxAPI
-- To demonstrate  the GET Request, i am retriving a **list of messages** , this can be found on [API](https://support.sigfox.com/apidocs#operation/getDeviceMessagesListForDevice) documentation.
+- To demonstrate  the GET Request, i am retriving a **list of messages** , this can be found in [API](https://support.sigfox.com/apidocs#operation/getDeviceMessagesListForDevice) documentation.
 
 <img width="972" alt="screen1" src="https://user-images.githubusercontent.com/55284959/221021827-e70c367a-6513-4762-89a5-704fd7454417.png">
 

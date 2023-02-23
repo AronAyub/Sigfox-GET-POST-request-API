@@ -59,8 +59,9 @@ password = "yourapipassword"
 ```
 authentication = (login, password)
 ```
-- From the sample we are using our API format is: https://api.sigfox.com/v2/devices/{id}/messages, rreplace id with your device ID, should be in Hex.
-- Below is the url format and how you pass the authentication details.
+From the sample we are using our API format is: https://api.sigfox.com/v2/devices/{id}/messages, rreplace id with your device ID, should be in Hex.
+
+Below is the url format and how you pass the authentication details.
 I am using auth module to pass my authentication details.
 ```
 response = requests.get("https://api.sigfox.com/v2/devices/id/messages",auth=authentication) 
@@ -69,10 +70,6 @@ print(response.json())
 ##### Sample returned data with my device ID and API defined 
 
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">
-
-### JAVASCRIPT CODE
-
-
 
 #### Coverage Prediction API Python Script
 This API helps in getting Global Coverage API (single point) to get coverage levels for any location. The API description shows that two mandatory parameters must be provided, and two being optional, lat, lng are mandatory and radius optional.

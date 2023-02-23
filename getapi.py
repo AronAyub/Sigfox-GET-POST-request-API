@@ -1,7 +1,8 @@
 # import requests module
 import requests
+# url = https://datausa.io/api/data?drilldowns=Nation&measures=Population
 
-response  = requests.get("https://api.coindesk.com/v1/bpi/currentprice.json")
+response  = requests.get("https://api.ipify.org?format=json")
 # from requests.auth import HTTPBasicAuth
 # user = 63f5edb8fecdeb76b337b802
 # pass = 44bd9e69742f6240ce53f643043261db

@@ -71,7 +71,7 @@ print(response.json())
 
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">
 
-#### Coverage Prediction API Python Script
+### Coverage Prediction API Python Script
 This API helps in getting Global Coverage API (single point) to get coverage levels for any location. The API description shows that two mandatory parameters must be provided, and two being optional, lat, lng are mandatory and radius optional.
 
 This helps predict network coverage of any location. 

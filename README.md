@@ -69,7 +69,11 @@ print(response.json())
 ```
 ### Enconded method
 Using encoded method to hide your password in the code.
+#### Code explained.
+Import dependent packages
+```
 
+```
 ##### Sample returned data with my device ID and API defined 
 
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">

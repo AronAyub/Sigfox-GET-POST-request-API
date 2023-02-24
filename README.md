@@ -111,6 +111,6 @@ time.sleep(2)
 
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">
 
-**Same *auth parsing* should apply for other HTTPs Request, unless specified otherwise in the documentations**
+**Same *auth parsing* should apply for other HTTPs Request, unless specified otherwise in the documentations**. 
 **Enjoy** - 
-⚡ Aron Ayub
+⚡Aron Ayub

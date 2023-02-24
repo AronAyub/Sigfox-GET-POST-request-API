@@ -2,7 +2,7 @@
 
 
 ## Introduction 
-APIs access in Sigfox Backend is restricted to authenticated API user, the first step to access API is to **generate API** credentials. Generating API can be done by your SO in the Sigfox Backend. API credentials are *name,* & *applicable time zone*. Accessible API methods and output response will be determined by the *roles* which are set for API credential. E,g *Read only* will allow you to access reading of the data only.
+APIs access in Sigfox Backend are restricted to authenticated API user, the first step to access API is to **generate API** credentials. Generating API can be done by your SO in the Sigfox Backend. API credentials are *name,* & *applicable time zone*. Accessible API methods and output response will be determined by the *roles* which are set for API credential. E,g *Read only* will allow you to access reading of the data only.
 API with Device *Manger[W]* is one of useful API for device management which allows registration or moving devices, creating and editing callbacks and accessing a device's PAC, etc.
 
 More on REST request for POST, GET, DELETE, PUT HTTP requests used are widely covered in the full documentation

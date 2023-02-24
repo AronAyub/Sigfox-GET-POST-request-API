@@ -9,15 +9,14 @@
 
 # Getting Data from Sigfox Backened using API.
 
+import requests
 
-# import requests
+login = "username"
+password = "loginpassword"
+authentication = (login, password)
+response = requests.get("https://api.sigfox.com/v2/devices/device-ID/messages",auth=authentication) 
 
-# login = "username"
-# password = "loginpassword"
-# authentication = (login, password)
-# response = requests.get("https://api.sigfox.com/v2/devices/device-ID/messages",auth=authentication) 
+print(response)
 
-# print(response)
-
-# # The variable response contains the response from the server
+# The variable response contains the response from the server
 

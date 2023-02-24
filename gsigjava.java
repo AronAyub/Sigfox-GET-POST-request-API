@@ -1,8 +1,9 @@
 
 // This is Javascript code to execute the same functionality.
+// You can try java if you are a fun.
 
 URIBuilder builder = new URIBuilder(); builder.setScheme("http").setHost("https://api.sigfox.com")
-.setPath("/v2/devices/32F7A8/messages")
+.setPath("/v2/devices/device id/messages")
 
 URI uri = builder.build();
 String user = "username";

@@ -27,7 +27,7 @@ from requests.auth import HTTPBasicAuth
 import base64
 import time
 
-url = "https://api.sigfox.com/v2/devices/79C030/messages"
+url = "https://api.sigfox.com/v2/devices/32F7A8/messages"
 
 #SOLUTION 1
 #using a token
@@ -40,9 +40,9 @@ print("Token:", base64.b64encode(token.encode("ascii")).decode("ascii"))
 print()
 
 #Once the token is generated, you can use the token directly in your code, it is safer in case your code leaks.
-print("----SOLUTION 1----")
+# print("----SOLUTION 1----")
 headers = {
-  'Authorization': 'Basic NjNmN2NlNWMzM2Q5NjgyMDFkN2Y0ZTQ1OjBhYTViZWJhMzBhZjgxMjA1NWMxMzVmOWZlNmI1YzZk'
+  'Authorization': 'Basic xxxyoutgeneratedtockenherexxx'
 }
 response = requests.get(url, headers=headers)
 print(response.text)

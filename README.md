@@ -41,11 +41,7 @@ print(response.json()) # Print JSON data from the requested URL
 So far there are two methods i found when using Python.
 ### Direct Method
 Involves having the *auth* parameters directly embedded in the code.
-### Enconded method
-Using encoded method to hide your password in the code.
-
-
-### Python Scripts to obtain JSON Data
+#### Python Scripts to obtain JSON Data using auth module
 Install and Import Requests 
 ```
 pip install requests
@@ -71,6 +67,9 @@ I am using auth module to pass my authentication details.
 response = requests.get("https://api.sigfox.com/v2/devices/id/messages",auth=authentication) 
 print(response.json())
 ```
+### Enconded method
+Using encoded method to hide your password in the code.
+
 ##### Sample returned data with my device ID and API defined 
 
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">

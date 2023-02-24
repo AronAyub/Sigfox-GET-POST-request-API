@@ -103,6 +103,10 @@ response = requests.get(url, headers=headers)
 print(response.text)
 print()
 ```
+- Because I do 2 API requests in a row, Sigfox limits to 1 request per second, so I need to slow my strict down, use sleep time
+```
+time.sleep(2) 
+```
 ##### Sample returned data with my device ID and API defined 
 
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">

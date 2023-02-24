@@ -22,7 +22,7 @@ More on REST request for POST, GET, DELETE, PUT HTTP requests used are widely co
 ## HTTPS GET REQUEST PYTHON SCRIPT 
 This API is very much useful for data consumption.
 #### Consuming open Source data
-Start by consuming unauthenticated APIs. In python, a few lines of code are used to do this:
+Start by consuming unauthenticated APIs. In python, a few lines of code are used:
 
 ```
 # Consuming open source APIs
@@ -103,7 +103,7 @@ response = requests.get(url, headers=headers)
 print(response.text)
 print()
 ```
-- Because I do 2 API requests in a row, Sigfox limits to 1 request per second, so I need to slow my strict down, use sleep time
+- **Because I do 2 API requests in a row, Sigfox limits to 1 request per second, so I need to slow my strict down, use sleep time**
 ```
 time.sleep(2) 
 ```
@@ -112,3 +112,5 @@ time.sleep(2)
 <img width="759" alt="SCREEN2" src="https://user-images.githubusercontent.com/55284959/221025177-9c494a04-5f4f-4294-b29f-157ebf3b5b74.png">
 
 **Same *auth parsing* should apply for other HTTPs Request, unless specified otherwise in the documentations**
+**Enjoy** - 
+⚡ Aron Ayub

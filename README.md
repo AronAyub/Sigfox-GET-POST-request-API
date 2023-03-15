@@ -135,5 +135,8 @@ const resulting = await axios.get(myurl, {
   }
 });
 ```
+- The variables UNAME and UPASS correspond to authentication credentials, which can be obtained in your Sigfox account page as you can see in the Sigfox API documentation. The parameters limit, since and before allows to control the time range of the response.
+
+
 
 ⚡Aron Ayub

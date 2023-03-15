@@ -113,4 +113,27 @@ time.sleep(2)
 
 **Same *auth parsing* should apply for other HTTPs Request, unless specified otherwise in the documentations**. 
 **Enjoy** - 
+
+## Java Experts can explore Axios library in Javascript to get data using API
+```
+const params = {}
+if (limit) {
+  params.limit = limit
+}
+if (start) {
+  params.since = start
+}
+if (end) {
+  params.before = end
+}
+const myurl = `https://api.sigfox.com/v2/devices/${DEVICE_ID}/messages`;
+const resulting = await axios.get(myurl, {
+    params: params,
+    auth: {
+    username: UNAME,
+    password: UPASS
+  }
+});
+```
+
 ⚡Aron Ayub

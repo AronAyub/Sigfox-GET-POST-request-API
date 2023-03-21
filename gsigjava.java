@@ -5,8 +5,8 @@
 
 URIBuilder builder = new URIBuilder(); builder.setScheme("http").setHost("https://api.sigfox.com").setPath("/v2/devices/32F7A8/messages")
 URI uri = builder.build();
-String user = "63c7b975e407d757abe43b43";
-String pwd = "e010441e8285762c5cb0fc5c50600a1c";
+String user = "xxxxxxxxxxxxxxxxxxxxxx";
+String pwd = "xxxxxxxxxxxxxxxxxxxxxxxs";
 HttpGet httpget = new HttpGet(uri);
 httpGet.addHeader("Authorization", "Basic " + Base64.encodeToString((user + ":" + pwd).getBytes(), Base64.NO_WRAP));
 

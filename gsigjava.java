@@ -3,6 +3,8 @@
 // You can try java if you are a fun.
 //
 
+// Aron Ayub " engaron8@gmail.com"
+
 URIBuilder builder = new URIBuilder(); builder.setScheme("http").setHost("https://api.sigfox.com").setPath("/v2/devices/32F7A8/messages")
 URI uri = builder.build();
 String user = "xxxxxxxxxxxxxxxxxxxxxx";

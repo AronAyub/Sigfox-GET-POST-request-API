@@ -23,3 +23,5 @@ print(response.text)
 print()
 
 time.sleep(2) #just because I do 2 API requests in a row, Sigfox limits to 1 request per second, so I need to slow my strict dow
+
+

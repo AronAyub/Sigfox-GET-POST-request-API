@@ -1,4 +1,4 @@
-# Working With GET API In Sigfox Backend
+# Working With GET Requests/ API In Sigfox Backend
 
 
 ## Introduction 
